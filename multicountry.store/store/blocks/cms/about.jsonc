@@ -1,0 +1,15 @@
+{
+  "store.custom#about": {
+    "blocks": [
+      "rich-text#about"
+    ]
+  },
+  "rich-text#about": {
+    "props": {
+      "text": "About US Page",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

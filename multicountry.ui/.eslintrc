@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-vtex",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/interface-name-prefix": "off"
+  }
+}

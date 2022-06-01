@@ -1,0 +1,33 @@
+{
+  "vendor": "corebizio",
+  "name": "main-slider",
+  "version": "0.0.0",
+  "title": "Main Slider",
+  "description": "Main Slider App",
+  "defaultLocale": "en-US",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "scripts": {
+    "prereleasy": "vtex publish --verbose --force"
+  },
+  "billingOptions": {
+    "free": true,
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.device-detector": "0.x",
+    "corebizio.ui": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

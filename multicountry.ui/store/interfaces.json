@@ -1,0 +1,9 @@
+{
+  "design-system": {
+    "component": "index"
+  },
+  "w-button": {
+    "component": "WButton",
+    "composition": "children"
+  }
+}

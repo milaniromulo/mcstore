@@ -1,0 +1,74 @@
+.slide{}
+
+.cardImage{}
+
+.infosContainer{
+  width: 100%;
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 0 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.infosContainerMobile{
+  width: 100%;
+  max-width: 1670px;
+  max-height: 325px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.shadow{
+  width: 55%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  height: 373px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 65%, rgba(255,255,255,0) 100%);
+}
+
+.shadowMobile{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 40%, rgba(255,255,255,0) 100%);
+}
+
+.subTitle{
+  font-size: clamp(1.5rem, 1.5vw + 1.2rem, 3rem);
+  color: #FFF;
+  font-weight: bold;
+  margin: 58px 0 0;
+}
+
+.description{
+  font-size: clamp(0.875rem, 0.563vw + 0.762rem, 1.438rem);
+  color: #FFF;
+  margin: 24px 0;
+  font-weight: normal;
+}
+
+.actionsContainer{
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+}
+
+.actionsContainer :global(.corebizio-ui-0-x-WButton:first-child){
+  margin-right: 20px;
+}
+
+.infosContainerMobile .actionsContainer{
+  margin: 0 auto;
+  max-width: 320px;
+}

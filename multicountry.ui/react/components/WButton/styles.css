@@ -1,0 +1,32 @@
+.WButton {}
+
+.WButton :global(.vtex-button) {
+  border-radius: 100px;
+  font-family: 'Helvetica';
+  font-size: clamp(1rem, 0.125vw + 0.975rem, 1.125rem);
+  text-transform: initial;
+}
+
+.WButton :global(.vtex-button.bg-action-primary) {
+  background-color: #ffb32a;
+  border: 2px solid #ffb32a;
+  color: #000000;
+}
+
+.WButton :global(.vtex-button.bg-action-primary):hover {
+  background-color: #ffb32a;
+  border: 2px solid #ffb32a;
+  color: #000000;
+}
+
+.WButton :global(.vtex-button.bg-action-secondary) {
+  border: 2px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+}
+
+.WButton :global(.vtex-button.bg-action-secondary):hover {
+  border: 2px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+}

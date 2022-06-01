@@ -1,0 +1,6 @@
+mutation addTodo($todoData: TodoInput!){
+  addTodo(todoData:$todoData) {
+    id
+    title
+  }
+}

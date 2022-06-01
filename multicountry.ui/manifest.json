@@ -1,0 +1,21 @@
+{
+  "vendor": "corebizio",
+  "name": "ui",
+  "version": "0.1.1",
+  "title": "UI Components",
+  "description": "UI Components",
+  "defaultLocale": "pt-BR",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.react-portal": "0.x",
+    "vtex.pixel-manager": "1.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

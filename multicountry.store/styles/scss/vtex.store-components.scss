@@ -1,0 +1,9 @@
+@import '_index';
+
+.container {
+  width: 100%;
+  max-width: $max-width;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* font-size: $font-primary; */
+}

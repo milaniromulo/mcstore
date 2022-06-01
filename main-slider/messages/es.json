@@ -1,0 +1,34 @@
+{
+  "admin/editor.main-slider.title": "Slider Principal",
+  "admin/editor.main-slider.activation": "¿Activar?",
+
+  "admin/editor.main-slider.infinite": "¿Slider infinito?",
+  "admin/editor.main-slider.NumberItems": "Número máximo de elementos en la slider",
+  "admin/editor.main-slider.transitionTime": "Tiempo de transición (segundos)",
+  "admin/editor.main-slider.showArrows": "Mostrar flechas",
+  "admin/editor.main-slider.showDots": "Mostrar puntos",
+
+  "admin/editor.main-slider.items.title": "Banners",
+  "admin/editor.main-slider.item.image": "Imagen de la pancarta",
+  "admin/editor.main-slider.item.image-mobile": "Imagen de la pancarta móvil📱",
+  "admin/editor.main-slider.item.title": "Título de la pancarta",
+  "admin/editor.main-slider.item.description": "Descripción de la pancarta",
+
+  "admin/editor.main-slider.item.imageLink": "Link de imágen",
+  "admin/editor.main-slider.item.imageLinkMobile": "Link de imagen móvil 📱",
+  "admin/editor.main-slider.item.showInfo": "Mostrar información",
+
+  "admin/editor.main-slider.item.buttons.title": "Botones de acción",
+  "admin/editor.main-slider.item.buttons.primaryTitle": "Botón principal",
+  "admin/editor.main-slider.item.buttons.primaryText": "Texto del botón principal",
+  "admin/editor.main-slider.item.buttons.primaryLink": "Link del botón principal",
+
+  "admin/editor.main-slider.item.buttons.secondaryTitle": "botón secundario",
+  "admin/editor.main-slider.item.buttons.secondaryText": "Texto del botón secundario",
+  "admin/editor.main-slider.item.buttons.secondaryLink": "Link del botón secundario",
+
+  "admin/editor.main-slider.enum.desktop": "Desktop",
+  "admin/editor.main-slider.enum.mobile": "Móvil",
+  "admin/editor.main-slider.enum.always": "Siempre",
+  "admin/editor.main-slider.enum.never": "Nunca"
+}

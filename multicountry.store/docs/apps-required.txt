@@ -1,0 +1,50 @@
+Apps
+
+- store (pedido)
+- shared (pedido)
+- design-sistem (pedido)
+- services (pedido)
+
+- login (pedido)
+- register (pedido)
+- myaccount (pedido)
+
+Responsible for managing the customized store login
+Responsible for managing the store's customized registration
+Responsável por gerenciar os dados do usuario customizado da loja
+
+"builders"
+node
+graphql
+
+- callopening (pedido)
+- dashboard (pedido)
+- commission (pedido)
+- finances (pedido)
+
+Responsável por gerenciar a aberturas de chamado de forma customizada da loja
+Responsável por gerenciar o admin customizada da loja
+Responsável por gerenciar as commissões de forma customizada da loja
+Responsável por gerenciar as financias da loja de forma customizada
+
+"builders"
+configuration
+admin
+node
+graphql
+
+- pixel (pedido)
+
+"builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "pixel": "0.x"
+},
+
+Responsável por gerenciar o tagueamento customizado da loja
+
+- epromotor
+
+"builders"
+node
+graphql

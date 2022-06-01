@@ -1,0 +1,53 @@
+{
+  "name": "main-slider",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "dev": "vtex link --verbose"
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/pages/**/*.tsx",
+      "src/components/**/*.tsx",
+      "src/hooks/*.tsx",
+      "!src/hooks/index.tsx",
+      "src/pages/**/*.js",
+      "src/components/**/*.js",
+      "src/hooks/*.js",
+      "!src/hooks/index.js"
+    ]
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "vtex": "^2.111.0"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "3",
+    "@vtex/prettier-config": "^0.3.5",
+    "@vtex/test-tools": "^3.3.2",
+    "eslint": "6.8.0",
+    "eslint-config-vtex": "^12.2.1",
+    "eslint-config-vtex-react": "^6.2.1",
+    "generate-release": "^1.1.1",
+    "git-commit-msg-linter": "^3.1.0",
+    "global": "^4.4.0",
+    "lint-staged": "^10.2.11",
+    "prettier": "^1.19.1",
+    "react-intl": "3",
+    "typescript": "^3.7.5",
+    "vtex": "^2.111.0"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT"
+}

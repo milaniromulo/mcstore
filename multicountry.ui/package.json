@@ -1,0 +1,40 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "dev": "vtex link --verbose"
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "styled-components": "^5.2.1",
+    "vtex": "^2.111.0"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7",
+    "@vtex/prettier-config": "^0.3.5",
+    "eslint": "6.8.0",
+    "eslint-config-vtex": "^12.2.1",
+    "eslint-config-vtex-react": "^6.2.1",
+    "generate-release": "^1.1.1",
+    "git-commit-msg-linter": "^3.1.0",
+    "global": "^4.4.0",
+    "lint-staged": "^10.2.11",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5",
+    "vtex": "^2.111.0"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT"
+}
